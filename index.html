@@ -29,27 +29,68 @@
                <h2>Let's do this!</h2>
                <label for="firstName"
                   >First name
-                  <input type="text" id="firstName" name="firstName" />
+                  <input
+                     type="text"
+                     id="firstName"
+                     name="firstName"
+                     placeholder="Emily"
+                     title="Enter you first name here"
+                     minlength="3"
+                  />
                </label>
                <label for="lastName"
                   >Last name
-                  <input type="text" id="lastName" name="lastName" />
+                  <input
+                     type="text"
+                     id="lastName"
+                     name="lastName"
+                     placeholder="Carter"
+                     title="Enter your last name here"
+                     minlength="3"
+                  />
                </label>
                <label for="email"
                   >Email
-                  <input type="email" id="email" name="email" />
+                  <input
+                     type="email"
+                     id="email"
+                     name="email"
+                     placeholder="emilycarter@example.com"
+                     title="Enter you email here"
+                  />
                </label>
                <label for="phoneNumber"
                   >Phone number
-                  <input type="text" id="phoneNumber" name="phoneNumber" />
+                  <input
+                     type="text"
+                     id="phoneNumber"
+                     name="phoneNumber"
+                     pattern="[\d]{3}-[\d]{3}-[\d]{3}"
+                     placeholder="123-456-789"
+                     title="Enter your phone number here"
+                  />
                </label>
                <label for="password"
                   >Password
-                  <input type="password" id="password" name="password" />
+                  <input
+                     type="password"
+                     id="password"
+                     name="password"
+                     title="Enter you password here"
+                     minlength="8"
+                     maxlength="20"
+                  />
                </label>
                <label for="confirmPassword"
                   >Confirm password
-                  <input type="text" id="confirmPassword" name="confirmPassword" />
+                  <input
+                     type="text"
+                     id="confirmPassword"
+                     name="confirmPassword"
+                     title="Enter you password here again (both passwords must match)"
+                     minlength="8"
+                     maxlength="20"
+                  />
                </label>
             </div>
             <button>Create Account</button>
